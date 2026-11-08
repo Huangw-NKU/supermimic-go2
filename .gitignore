@@ -1,0 +1,39 @@
+# External runtime, assets, and generated data
+IsaacLab/
+data/
+assets/
+logs/
+checkpoints/
+results/
+recordings/
+*.pt
+*.pth
+*.npz
+*.mp4
+*.webm
+*.gif
+
+# Python/build/runtime caches
+.cache/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ssh/
+.vscode/
+.idea/
+.DS_Store

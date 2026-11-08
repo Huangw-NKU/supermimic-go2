@@ -1,0 +1,69 @@
+{
+  "num_envs": 1024,
+  "buffer_steps": 600,
+  "utd": 0.4,
+  "horizon": 16,
+  "hist": 10,
+  "latent": 32,
+  "wm_hidden": [
+    512,
+    512,
+    512
+  ],
+  "encoder_hidden": [
+    256,
+    256
+  ],
+  "decoder_hidden": [
+    512,
+    256,
+    128
+  ],
+  "wm_window": 8,
+  "wm_batches": 4,
+  "wm_batch": 1024,
+  "pi_batch": 4096,
+  "wm_only_iters": 20250,
+  "warmup_steps": 160,
+  "lr": 0.0001,
+  "lr_decay_iters": 50000,
+  "gamma": 0.99,
+  "lam": 0.95,
+  "action_noise": 0.1,
+  "action_clip": 3.0,
+  "critic_epochs": 2,
+  "critic_minibatches": 4,
+  "command_vx": [
+    -0.5,
+    1.0
+  ],
+  "command_vy": [
+    -0.4,
+    0.4
+  ],
+  "command_yaw": [
+    -1.0,
+    1.0
+  ],
+  "command_steps": [
+    100,
+    250
+  ],
+  "standing_probability": 0.15,
+  "curriculum_iters": 10000,
+  "episode_steps": 1000,
+  "compile": true,
+  "log_every": 25,
+  "ckpt_every": 1000,
+  "terrain_course": true,
+  "stairs_start": 4000,
+  "tall_stairs_start": 9000,
+  "rough_start": 20000,
+  "rough_ramp": 3000,
+  "rough_seed": 71,
+  "seed": 0,
+  "torch_threads": 1,
+  "profile": true,
+  "iterations": 32000,
+  "visualizer": "none"
+}

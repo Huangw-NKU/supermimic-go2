@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=70,<82", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supermimic-go2"
+version = "0.1.0"
+description = "Go2 velocity control through a learned differentiable world model"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.26", "torch>=2.6"]
+
+[project.optional-dependencies]
+monitor = ["psutil>=5.9"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["supermimic", "supermimic.*"]

@@ -1,0 +1,15 @@
+SuperMimic Go2
+
+This repository extracts the Go2 velocity-control extension from
+https://github.com/Huangw-NKU/supermimic_vibed, including the local Go2
+extension developed in that working tree.
+
+The original SuperMimic reproduction and shared rotation utilities carry
+the MIT license reproduced in LICENSE, including the original copyright
+notice for ETH Zurich and Chong Zhang. This is an unofficial implementation
+and a quadruped extension, not an official SuperMimic release.
+
+Isaac Lab, Newton, MuJoCo, MuJoCo Warp, and Unitree robot assets are external
+dependencies. They retain their respective licenses and notices; they and
+their assets are not redistributed in this source repository. Installing
+them does not relicense them under this repository's MIT license.

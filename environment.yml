@@ -1,0 +1,9 @@
+name: supermimic-go2
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - uv==0.12.23
+# Run tools/setup_native.sh to install the pinned Isaac Lab runtime and this package.
